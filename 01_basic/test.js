@@ -1,9 +1,8 @@
-function generateOTP() {
-  
- const otp = Math.floor(1000 + Math.random() * 9000)
- return otp;
-}
+function generateOtp(){
 
+const otp = math.floor(1000 + math.random()* 9000)
 
-const otp = generateOTP();
-console.log("Your OTP is:", otp);
+return otp;
+ }
+
+console.log(generateOtp())
